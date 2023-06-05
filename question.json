@@ -27,11 +27,11 @@
   "explanation": "Legumbres es una fuente saludable de proteínas. Las legumbres, como los frijoles, lentejas y garbanzos, son excelentes fuentes de proteínas vegetales."
 }
 {
-  "category": "Musica",
-  "question": "¿Quien canta la cancion Vivir mi Vida?",
-  "options": ["Celia Cruz", "Marc Anthony", "David Bisbal"],
+  "category": "Deporte",
+  "question": "¿Que deporte se juega con raquetas?",
+  "options": ["Futbool", "Beisbol", "Tenis"],
   "answer": 1,
-  "explanation": "Marc Anthony: Esta canción de 2013 se convirtió en un himno positivo y optimista, logrando un gran reconocimiento en diversas partes del mundo."
+  "explanation": "El tenis es un deporte de raqueta que se juega tanto individualmente como en parejas."
 }
 {
   "category": "Musica",
