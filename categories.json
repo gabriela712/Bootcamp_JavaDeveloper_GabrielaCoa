@@ -1,26 +1,26 @@
 [
   {
-    "category": "Cultura",
-    "description": "Preguntas relacionadas con arte, literatura, música y otras expresiones culturales."
+    "category": "Musica",
+    "description": "Preguntas relacionadas con musica y cantantes."
   },
   {
-    "category": "Deportes",
-    "description": "Preguntas relacionadas con diversos deportes y eventos deportivos."
+    "category": "Comidas",
+    "description": "Preguntas relacionadas con diversas comidas y diferentes platos tradicionales de paises."
   },
   {
-    "category": "Arte",
-    "description": "Preguntas relacionadas con pintura, escultura, arquitectura y otras formas de expresión artística."
+    "category": "Informatica",
+    "description": "Preguntas relacionadas con informatica, programacion e inteligencia artificial."
   },
   {
-    "category": "Cine",
-    "description": "Preguntas relacionadas con películas, directores, actores y otros aspectos del cine."
+    "category": "Salud",
+    "description": "Preguntas relacionadas con salud y bienestar."
   },
   {
-    "category": "Historia",
-    "description": "Preguntas relacionadas con eventos históricos, personajes y períodos importantes."
+    "category": "Deporte",
+    "description": "Preguntas relacionadas con eventos deportivos, deporte y campeones del deporte a nivel mundial."
   },
   {
-    "category": "Ciencia",
-    "description": "Preguntas relacionadas con diferentes ramas de la ciencia, descubrimientos y avances científicos."
+    "category": "Animales",
+    "description": "Preguntas relacionadas con animales de los diferentes paises."
   }
 ]
