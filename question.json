@@ -34,9 +34,9 @@
   "explanation": "El tenis es un deporte de raqueta que se juega tanto individualmente como en parejas."
 }
 {
-  "category": "Musica",
-  "question": "¿Quien canta la cancion Vivir mi Vida?",
-  "options": ["Celia Cruz", "Marc Anthony", "David Bisbal"],
+  "category": "Animales",
+  "question": "¿Cual es el depredador mas veloz del mundo?",
+  "options": ["Leon", "Jaguar", "Guepardo"],
   "answer": 1,
-  "explanation": "Marc Anthony: Esta canción de 2013 se convirtió en un himno positivo y optimista, logrando un gran reconocimiento en diversas partes del mundo."
+  "explanation": "El guepardo (Acinonyx jubatus) es conocido como el depredador terrestre más veloz del mundo. Es un felino que puede alcanzar velocidades de hasta 110 kilómetros por hora en carreras cortas."
 }
