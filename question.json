@@ -6,11 +6,11 @@
   "explanation": "Marc Anthony: Esta canción de 2013 se convirtió en un himno positivo y optimista, logrando un gran reconocimiento en diversas partes del mundo."
 }
 {
-  "category": "Musica",
-  "question": "¿Quien canta la cancion Vivir mi Vida?",
-  "options": ["Celia Cruz", "Marc Anthony", "David Bisbal"],
-  "answer": 1,
-  "explanation": "Marc Anthony: Esta canción de 2013 se convirtió en un himno positivo y optimista, logrando un gran reconocimiento en diversas partes del mundo."
+  "category": "Comida",
+  "question": "¿Cual es un plato tradicional de Venezuela?",
+  "options": ["Pabellon criollo", "Arroz con pollo", "Lazaña"],
+  "answer": 0,
+  "explanation": "Pabellon criollo es un plato representa la mezcla de influencias indígenas, españolas y africanas que conforman la cultura culinaria de Venezuela."
 }
 {
   "category": "Musica",
