@@ -30,13 +30,13 @@
   "category": "Deporte",
   "question": "¿Que deporte se juega con raquetas?",
   "options": ["Futbool", "Beisbol", "Tenis"],
-  "answer": 1,
+  "answer": 2,
   "explanation": "El tenis es un deporte de raqueta que se juega tanto individualmente como en parejas."
 }
 {
   "category": "Animales",
   "question": "¿Cual es el depredador mas veloz del mundo?",
   "options": ["Leon", "Jaguar", "Guepardo"],
-  "answer": 1,
+  "answer": 2,
   "explanation": "El guepardo (Acinonyx jubatus) es conocido como el depredador terrestre más veloz del mundo. Es un felino que puede alcanzar velocidades de hasta 110 kilómetros por hora en carreras cortas."
 }
