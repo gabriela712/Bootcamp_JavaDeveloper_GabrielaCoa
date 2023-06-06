@@ -5,38 +5,3 @@
   "answer": 1,
   "explanation": "Marc Anthony: Esta canción de 2013 se convirtió en un himno positivo y optimista, logrando un gran reconocimiento en diversas partes del mundo."
 }
-{
-  "category": "Comida",
-  "question": "¿Cual es un plato tradicional de Venezuela?",
-  "options": ["Pabellon criollo", "Arroz con pollo", "Lazaña"],
-  "answer": 0,
-  "explanation": "Pabellon criollo es un plato representa la mezcla de influencias indígenas, españolas y africanas que conforman la cultura culinaria de Venezuela."
-}
-{
-  "category": "Informatica",
-  "question": "¿Qué es un ataque de phishing?",
-  "options": ["Un intento de robar contraseñas y nombres de usuario", "Un intento de infectar un sistema con virus informáticos", "Un intento de suplantar la identidad de una entidad confiable para obtener información confidencial"],
-  "answer": 2,
-  "explanation": "Un phishing es un intento de suplantar la identidad de una entidad confiable para obtener información confidencial."
-}
-{
-  "category": "Salud",
-  "question": "¿Cuál de las siguientes opciones es una fuente saludable de proteínas?",
-  "options": ["Carne procesada", "Legumbres", "Comida rápida"],
-  "answer": 1,
-  "explanation": "Legumbres es una fuente saludable de proteínas. Las legumbres, como los frijoles, lentejas y garbanzos, son excelentes fuentes de proteínas vegetales."
-}
-{
-  "category": "Deporte",
-  "question": "¿Que deporte se juega con raquetas?",
-  "options": ["Futbool", "Beisbol", "Tenis"],
-  "answer": 2,
-  "explanation": "El tenis es un deporte de raqueta que se juega tanto individualmente como en parejas."
-}
-{
-  "category": "Animales",
-  "question": "¿Cual es el depredador mas veloz del mundo?",
-  "options": ["Leon", "Jaguar", "Guepardo"],
-  "answer": 2,
-  "explanation": "El guepardo (Acinonyx jubatus) es conocido como el depredador terrestre más veloz del mundo. Es un felino que puede alcanzar velocidades de hasta 110 kilómetros por hora en carreras cortas."
-}
