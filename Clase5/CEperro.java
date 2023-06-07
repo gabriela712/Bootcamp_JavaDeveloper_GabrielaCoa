@@ -15,5 +15,5 @@
               edadPerro = 21 + (edadHumana - 2) * 4;
            }
            System.out.println("La edad equivalente en años perro es: " + edadPerro);
-      }
+      } 
  }
