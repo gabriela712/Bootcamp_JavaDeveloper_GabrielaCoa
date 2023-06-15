@@ -5,10 +5,10 @@ public class CalculadoraDescuento {
     public static void main(String[] args) {
         Scanner cargaDeDatos= new Scanner(System.in);
 
-        System.out.print("Ingrese el precio: ");
+        System.out.println("Ingrese el precio: ");
         double precio = cargaDeDatos.nextDouble();
 
-        System.out.print("Ingrese el porcentaje de descuento: ");
+        System.out.println("Ingrese el porcentaje de descuento: ");
         double descuento = cargaDeDatos.nextDouble();
 
         double precioFinal = calcularPrecioFinal(precio, descuento);

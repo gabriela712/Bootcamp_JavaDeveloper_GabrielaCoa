@@ -8,7 +8,7 @@ public class BuscadorTwiter {
         System.out.println("Ingrese el nombre del actor de un solo nombre: ");
         String actor = cargaDeDatos.nextLine();
 
-        String url = "“https://twitter.com/search?q= " + actor;
+        String url = "https://twitter.com/search?q= " + actor;
 
         System.out.println("Twiter: " + url);
     }

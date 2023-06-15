@@ -4,8 +4,8 @@ import java.util.Random;
 import java.util.Scanner;
 public class JuegoAdiivinarNumero {
     public static void main(String[] args){
-        Random cargAleatoria = new Random();
-        int numeroAleatorio = cargAleatoria.nextInt(100) + 1;
+        Random aleatorio = new Random();
+        int numeroAleatorio = aleatorio.nextInt(100) + 1;
 
         Scanner cargaDeDatos = new Scanner(System.in);
         int intentos = 0;
@@ -17,7 +17,7 @@ public class JuegoAdiivinarNumero {
 
         do {
             intentos++;
-            System.out.print("Intento #" + intentos + ": ");
+            System.out.print("Intento #" + intentos  ": ");
             numeroAdivinado = cargaDeDatos.nextInt();
 
             if (numeroAdivinado < numeroAleatorio) {
