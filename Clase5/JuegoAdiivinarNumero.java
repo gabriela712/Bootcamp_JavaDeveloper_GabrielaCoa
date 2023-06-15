@@ -17,7 +17,7 @@ public class JuegoAdiivinarNumero {
 
         do {
             intentos++;
-            System.out.print("Intento #" + intentos  ": ");
+            System.out.print("Intento #" + intentos + ": ");
             numeroAdivinado = cargaDeDatos.nextInt();
 
             if (numeroAdivinado < numeroAleatorio) {

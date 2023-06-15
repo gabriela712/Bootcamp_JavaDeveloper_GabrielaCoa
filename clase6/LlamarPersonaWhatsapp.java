@@ -3,13 +3,15 @@ package clase6;
 import java.util.Scanner;
 
 public class LlamarPersonaWhatsapp {
-    public static void main(String[] args);
-      Scanner teclado = new scanner(System.in);
+  public static void main(String[] args) {
 
-      System.out.println("Ingrese numero de telefono (sin espacios): ");
-      String telefono = teclado.nextLine();
+    Scanner cargaDeDatos = new Scanner(System.in);
 
-      String url = "https://api.whatsapp.com/send?phone=" + telefono;
+    System.out.println("Ingrese un numero de telefono (sin espacios): ");
+    String telefono = cargaDeDatos.nextLine();
 
-      System.out.println("Llamar por Whatsapp: " + url);
+    String url = "https://api.whatsapp.com/send?phone=" + telefono;
+
+    System.out.println("Llamar por Whatsapp: " + url);
+  }
 }
