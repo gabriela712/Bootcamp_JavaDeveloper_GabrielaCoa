@@ -1,4 +1,4 @@
-package Clase15;
+package Clase13;
 
 import java.util.Scanner;
 
@@ -11,15 +11,15 @@ public class Main {
         Figura objCirculo = new Circulo(10);
 
 
-        System.out.println("El area del triangulo es: " + objTriangulo.calcularArea() );
+        //System.out.println("El area del triangulo es: " + objTriangulo.calcularArea() );
 
-        System.out.println("El perimetro del triangulo es: " + objTriangulo.calcularPerimetro() );
+        //System.out.println("El perimetro del triangulo es: " + objTriangulo.calcularPerimetro() );
 
         Scanner teclado= new Scanner(System.in);
 
         int opcion;
         boolean mostrarMenu = true;
-        while(mostrarMenu) {
+        do {
 
             System.out.println("Seleccione, opcion(1), opcion(2), opcion(3)");
             System.out.println("(1) Opcion: Calcular el area del cuadrado");
@@ -43,25 +43,21 @@ public class Main {
                     System.out.println("El area del circulo es: " + objCirculo.calcularArea());
                     break;
                 case 4:
-                    System.out.println("El perimetro del cuadrado es: " + objCuadrado.calcularArea());
+                    System.out.println("El perimetro del cuadrado es: " + objCuadrado.calcularPerimetro());
                     break;
 
                 case 5:
-                    System.out.println("El perimetro del triangulo es: " + objTriangulo.calcularArea());
+                    System.out.println("El perimetro del triangulo es: " + objTriangulo.calcularPerimetro());
                     break;
 
                 case 6:
-                    System.out.println("El perimetro del circulo es: " + objCirculo.calcularArea());
+                    System.out.println("El perimetro del circulo es: " + objCirculo.calcularPerimetro());
                     break;
                 case 0:
                     mostrarMenu = false;break;
             }
-            opcion = teclado.nextInt();
-            }
+            } while (mostrarMenu);
 
         }
-        while (mostrarMenu);
 
     }
-
-}

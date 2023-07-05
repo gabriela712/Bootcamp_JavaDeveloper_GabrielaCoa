@@ -1,4 +1,4 @@
-package Clase15;
+package Clase13;
 
 public class Triangulo extends Figura {
 
@@ -36,7 +36,7 @@ public class Triangulo extends Figura {
 
     public double calcularPerimetro() {
 
-        int hipotenusa = (int) Math.sqrt((Math.pow(base,2))+(Math.pow(altura,2);
+        int hipotenusa = (int) Math.sqrt((Math.pow(base,2))+(Math.pow(altura,2)));
 
         return (hipotenusa + base + altura);
     }

@@ -1,4 +1,4 @@
-package Clase15;
+package Clase13;
 
 public class Cuadrado extends Figura{
     private double lado;
@@ -23,14 +23,13 @@ public class Cuadrado extends Figura{
     public double calcularArea() {
 
         double area = Math.pow(lado, 2);
-
         return area;
     }
 
     @Override
     public double calcularPerimetro() {
 
-        double perimetro = Math.pow(lado * 2);
+        double perimetro = lado * 4;
         return perimetro;
     }
 }

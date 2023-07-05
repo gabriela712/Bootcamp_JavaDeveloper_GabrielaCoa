@@ -1,4 +1,4 @@
-package Clase15;
+package Clase13;
 
 public class Circulo extends Figura{
 
@@ -28,9 +28,8 @@ public class Circulo extends Figura{
 
     @Override
     public double calcularPerimetro() {
-        int area;
 
-        double perimetro = 2 * Math.PI * area;
+        double perimetro = 2 * Math.PI * radio;
 
         return perimetro;
     }

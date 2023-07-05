@@ -1,4 +1,4 @@
-package Clase14;
+package Clase12;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -30,28 +30,12 @@ public class JuegoAmigoInvisible {
             System.out.print(participante + ", presiona enter para ver a quién debes darle un regalo.");
             scanner.nextLine();
 
-            // Limpiar la consola
-            clearConsole();
 
             String amigoInvisible = participantes.get((participantes.indexOf(participante) + 1) % cantidadParticipantes);
             System.out.println("¡Hola " + participante + "! Debes darle un regalo a: " + amigoInvisible);
             System.out.println("Presiona enter para continuar.");
 
             scanner.nextLine();
-        }
-    }
-
-    // Método para limpiar la consola
-    public static void clearConsole() {
-        try {
-            final String os = System.getProperty("os.name");
-            if (os.contains("Windows")) {
-                new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-            } else {
-                Runtime.getRuntime().exec("clear");
-            }
-        } catch (final Exception e) {
-            System.out.println("Error al limpiar la consola.");
         }
     }
 }
