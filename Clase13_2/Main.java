@@ -26,24 +26,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner teclado = new Scanner(System.in);
-        Personaje objGuerrero = new Guerrero();
-        Personaje objMago = new Mago();
-        Personaje objArquero = new Arquero();
-
-        /*System.out.println("Ingresa el nombre del guerrero: ");
-        objGuerrero.setNombre(teclado.nextLine());
-        System.out.println("Ingrese los puntos puntos de vida del personaje: ");
-        objGuerrero.setPuntosDeVida(teclado.nextInt());
-        System.out.println("Ingrese el nivel del juego: ");
-        objGuerrero.setNivel(teclado.nextInt());
-
-        System.out.println("Mostrar nombre del guerrero: " + objGuerrero.getNombre());
-        System.out.println("Mostrar los puntos de vida del guerrero: " + objGuerrero.getPuntosDeVida());
-        System.out.println("Mostrar nivel del guerrero: " + objGuerrero.getNivel());*/
+        Guerrero guerrero = new Guerrero("Jean ", 10, 100, 15);
+        Mago mago = new Mago("Peter ", 8, 80, 50);
+        Arquero arquero = new Arquero("Robin ", 9, 90, 20);
 
 
-        List<Personaje> personajes = new ArrayList<>();
+        //Combate Simulado
+        guerrero.atacar(mago);
+        mago.lanzarHechizo(guerrero);
+        arquero.dispararFlecha(guerrero);
+        guerrero.golpeEspada(arquero);
+
+
+
+
+        /*List<Personaje> personajes = new ArrayList<>();
         personajes.add(objGuerrero);
         personajes.add(objMago);
         personajes.add(objArquero);
@@ -56,8 +53,6 @@ public class Main {
             System.out.println("Ingrese el nivel del " + p.getNombre());
             p.setNivel(teclado.nextInt());
             teclado.nextLine();
-        }
-
-
+        }*/
     }
 }

@@ -1,40 +1,43 @@
 package Clase13_2;
 
-public abstract class Personaje {
+public class Personaje {
 
-    protected String nombre;
-
+    private String nombre;
     protected int nivel;
-
     protected int puntosDeVida;
 
-    public abstract void atacar(Personaje personaje);
-
-    public abstract int recibirDaño(Personaje personaje);
-
-    public abstract void curarse(Personaje personaje);
-
-    public String getNombre() {
-        return nombre;
+    public Personaje(String nombre, int nivel, int puntosDeVida) {
+        this.nombre = nombre;
+        this.nivel = nivel;
+        this.puntosDeVida = puntosDeVida;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void atacar(Personaje objetivo) {
+        System.out.println(nombre + "ataca a " + objetivo.getNombre());
+        //Lógica de ataque aqui
+    }
+    public  void recibirDanio(int cantidadDanio) {
+        puntosDeVida -= cantidadDanio;
+        System.out.println(nombre + " recibe " + cantidadDanio + "puntos de daño.");
+        if ( puntosDeVida <= 0) {
+            System.out.println(nombre + " ha sido derrotado.");
+        }
+    }
+
+    public void curarse(int cantidadCuracion) {
+        puntosDeVida += cantidadCuracion;
+        System.out.println(nombre + " se ha curado en " + cantidadCuracion + " puntos de vida.");
+    }
+    public String getNombre() {
+        return nombre;
     }
 
     public int getNivel() {
         return nivel;
     }
 
-    public void setNivel(int nivel) {
-        this.nivel = nivel;
-    }
-
     public int getPuntosDeVida() {
         return puntosDeVida;
     }
 
-    public void setPuntosDeVida(int puntosDeVida) {
-        this.puntosDeVida = puntosDeVida;
-    }
 }
